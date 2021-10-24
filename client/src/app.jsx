@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
 
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <div>Pee Pee Poo Poo Oh No No</div>
+        <div><h1>Pee Pee Poo Poo Oh No No</h1></div>
       </div>
     )
   }
