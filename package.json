@@ -1,14 +1,37 @@
 {
+  "name": "cartwheelAPI",
+  "version": "1.0.69",
+  "description": "API for Steve, love you bro",
   "dependencies": {
     "body": "^5.1.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jquery": "^3.6.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.14",
-    "parser": "^0.1.4",
-    "react": "^17.0.2"
+    "parser": "^0.1.4"
   },
   "scripts": {
-    "server": "nodemon server/index.js"
+    "server": "nodemon server/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brazz7762/cartwheelAPI"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
   }
 }
